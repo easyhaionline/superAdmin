@@ -1,0 +1,253 @@
+.teacher_dashboard{
+
+
+.tech_login {
+  height: 80vh;
+}
+h2 {
+  background-color: rgb(10, 64, 92);
+  padding: 10px;
+  color: white;
+  text-shadow: 0 0 10px gray;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form_main {
+  width: 550px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+  position: relative;
+  overflow: hidden;
+
+  box-shadow: 10px 12px 15px rgb(211, 208, 208);
+}
+
+@media (max-width: 500px) {
+  .form_main {
+    width: 280px;
+    margin-left: -70px;
+    height: 400px;
+    margin-top: 100px;
+    box-shadow: 10px 12px 15px rgb(187, 184, 184);
+  }
+}
+// @media (max-width:800px){
+//   .form_main{
+//     width: 320px;
+//     margin-left: -30px;
+//     height: 400px;
+//     margin-top: 100px;
+//     box-shadow: 10px 12px 15px rgb(187, 184, 184);
+//   }
+// }
+.form_main::before {
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 201, 29);
+  transform: rotate(45deg);
+  left: -180px;
+  // bottom: 30px;
+
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+.heading {
+  font-size: 2em;
+  color: #2e2e2e;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+  z-index: 2;
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 3px;
+  // color: white;
+  // background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.inputField {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  margin: 10px 0;
+  color: rgb(10, 64, 92);
+  font-size: 0.8em;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.inputField:focus {
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+.inputField::placeholder {
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#button {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  border: none;
+  background-color: rgb(10, 64, 92);
+  height: 30px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: rgb(126, 84, 255);
+}
+
+.forgotLink {
+  z-index: 2;
+  font-size: 0.7em;
+  font-weight: 500;
+  color: rgb(44, 24, 128);
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.tech_login {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+}
+
+// css for student doubt
+.student_doubt_page{
+.card-container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-list {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background-color: rgb(139, 184, 197);
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: goldenrod;
+}
+
+
+
+.card-body {
+  font-size: 14px;
+}
+.btn {
+  background-color:  rgb(10, 64, 92);
+  color: white;
+}
+.btn:hover {
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+}
+strong {
+  color: rgb(51, 38, 38);
+}
+
+.btnn33{
+background-color:  rgb(10, 64, 92);
+padding: 10px;
+margin: 10px;
+border-radius: 30px;
+color: white;
+box-shadow:  5px 5px 4px rgb(116, 112, 112);
+width: 120px;
+}
+.btnn33:hover{
+  background-color: rgb(9, 170, 9);
+
+  transition-delay: 0.5s ease;
+  color:white;
+  width: 140px;
+  transition: 0.3s ease-out;
+  box-shadow: 0 0 40px rgb(133, 219, 4);
+}
+.mmmmm{
+  // background-color: black;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("https://images.unsplash.com/photo-1476973422084-e0fa66ff9456?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1441&q=80");
+}
+.modal-header, button{
+  background-color:  rgb(53, 130, 168);
+  color: white;
+}
+.sol{
+  border:3px solid rgb(88, 88, 88);
+}
+textarea{
+
+  height: 60vh;
+}
+
+// .modal-dialog{
+// // background-color:  rgb(255, 201, 29);
+// // padding: 5px;
+// border-radius: 5px;
+// box-shadow:  30px 30px 70px 10px rgb(235, 86, 86);
+// }
+}
+// end of student doubt css

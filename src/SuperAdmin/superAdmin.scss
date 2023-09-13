@@ -1,0 +1,107 @@
+.superadmin_dash {
+  .header {
+    background-color: whitesmoke;
+    color: rgb(10, 64, 92);
+    text-align: start;
+    padding: 15px;
+    h4 {
+      font-weight: bold;
+      font-family: monospace;
+    }
+  }
+
+  .card1 {
+    background-image: url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+  }
+  .card2 {
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+    background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    background-position: center;
+  }
+  .card3 {
+    background-color: rgb(168, 107, 226);
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+    background-image: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80");
+    background-size: cover;
+    background-position: center;
+  }
+  .dashicon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(10, 64, 92);
+  }
+
+  .card1 :hover {
+    margin: 8px;
+
+    transition: 0.5s ease;
+  }
+  .card2 :hover {
+    margin: 8px;
+    transition: 0.5s ease;
+  }
+  .card3 :hover {
+    margin: 8px;
+    transition: 0.5s ease;
+  }
+  .graphpara {
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgb(10, 64, 92);
+    font-family: monospace;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+.logindata_main {
+  .header {
+    background-color: orchid;
+    color: black;
+    text-align: start;
+    padding: 10px;
+  }
+}
+.dailydouts_mains {
+  .header {
+    background-color: orchid;
+    color: black;
+    text-align: start;
+    padding: 10px;
+  }
+}
+
+.createplan_mains {
+  .header {
+    color: white;
+    text-align: center;
+    // padding: 10px;
+  }
+  h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  label {
+    color: white;
+  }
+}
+
+.availableplan_main {
+  .header {
+    background-color: orchid;
+    color: black;
+    text-align: start;
+    padding: 10px;
+  }
+}
